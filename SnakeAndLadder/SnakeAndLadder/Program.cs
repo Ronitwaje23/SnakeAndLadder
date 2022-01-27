@@ -12,7 +12,7 @@ namespace SnakeAndLadder
         {
             Console.WriteLine("welcome to snake and ladder");
             SinglePlayer Player = new SinglePlayer();
-            Player.StartPlaying();
+            Player.playGame();
             
             Console.ReadLine();
         }
